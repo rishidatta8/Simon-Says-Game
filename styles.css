@@ -9,6 +9,27 @@ body {
   margin:  5%;
   color: #FEF2BF;
 }
+.para
+{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.para,.h1,.list
+{
+  color: #FEF2BF;
+}
+.h1
+{
+  font-size: 50px;
+  font-weight: bolder;
+}
+.list
+{
+  text-align: left;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 40px;
+}
 
 .container {
   display: block;
