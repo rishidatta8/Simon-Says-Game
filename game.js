@@ -77,3 +77,25 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
+
+
+
+
+
+
+//hide div
+$(".play").click(function () {
+  $(".inst").addClass("hide");
+});
+
+$(document).ready(function () {
+  $(".inst").removeClass("hide");
+});
+$(document).ready(function () {
+  setTimeout(function () {
+    document.documentElement.scrollTop = 0;
+  }, 20);
+  
+});
+
+
