@@ -85,11 +85,13 @@ function startOver() {
 
 //hide div
 $(".play").click(function () {
+//  $(".inst").addClass("w3-animate-opacity");
   $(".inst").addClass("hide");
 });
 
 $(document).ready(function () {
   $(".inst").removeClass("hide");
+  $(".inst").removeClass("w3-animate-opacity");
 });
 $(document).ready(function () {
   setTimeout(function () {
