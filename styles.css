@@ -22,17 +22,36 @@ html,body
   border-width: 10px;
   left: 0;
   right: 0;
+  top: 50px;
   margin-left: auto;
   margin-right: auto;
   z-index: 1;
   background-color: #2f557e;
 }
+.play
+{
+  width: 200px;
+  padding-bottom: 20px;
+}
+.start
+{
+  width: 230px;
+}
+
 .para
 {
   font-size: 30px;
   text-align: left;
   margin-left: 19px;
   font-weight: bolder;
+}
+.no
+{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 355px;
+  left: 630px;
 }
 .hide
 {
