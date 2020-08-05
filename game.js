@@ -7,13 +7,13 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(".start").click(function () {
+$(".play").click(function () {
   if (!started) {
     $("#level-title").text("Level " + level);
     $(".start").addClass("hide");
     setTimeout(function () {
       nextSequence();
-    }, 300);
+    }, 500);
     started = true;
   }
 });
