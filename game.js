@@ -79,7 +79,7 @@ function startOver() {
   level = 0;
   gamePattern = [];
   started = false;
-  $(".start").removeClass("hide");
+  $(".inst").removeClass("hide");
 }
 
 
